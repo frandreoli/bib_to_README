@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     25884,        592]
-NotebookOptionsPosition[     24541,        557]
-NotebookOutlinePosition[     25071,        576]
-CellTagsIndexPosition[     25028,        573]
+NotebookDataLength[     25893,        593]
+NotebookOptionsPosition[     24553,        558]
+NotebookOutlinePosition[     25080,        577]
+CellTagsIndexPosition[     25037,        574]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -471,7 +471,7 @@ Cell[BoxData[{
       "\"\<Shahmoon2017CooperativeArrays\>\"", ",", "\[IndentingNewLine]", 
       "\"\<Rui2020ALayer\>\"", ",", "\[IndentingNewLine]", 
       "\"\<Manzoni2018OptimizationArrays\>\""}], "\[IndentingNewLine]", 
-     "}"}]}], ";"}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+     "}"}]}], ";"}], " ", "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"startingIndex", "=", "18"}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
@@ -510,8 +510,9 @@ Cell[BoxData[{
    3.884336734922433*^9}, {3.8844255657328997`*^9, 3.884425650792962*^9}, {
    3.8844256916856537`*^9, 3.8844257130068035`*^9}, {3.902821952829999*^9, 
    3.902821953858178*^9}, {3.902822166222801*^9, 3.9028221665490956`*^9}, {
-   3.902822211387169*^9, 3.9028222210672483`*^9}},
- CellLabel->"In[8]:=",ExpressionUUID->"f6a80711-3114-4b53-92d9-6292af6b099b"],
+   3.902822211387169*^9, 3.9028222210672483`*^9}, 
+   3.9028234258287225`*^9},ExpressionUUID->"f6a80711-3114-4b53-92d9-\
+6292af6b099b"],
 
 Cell[BoxData["\<\"<a id=\\\"Bettles2016EnhancedArray\\\">[18]</a>\\nBettles \
 Robert J, Gardiner Simon A, Adams Charles S,\\n*Enhanced Optical Cross \
@@ -555,8 +556,8 @@ Cell[BoxData["\<\"readme_text.txt\"\>"], "Output",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{960, 538},
-WindowMargins->{{-5.5, Automatic}, {Automatic, -5.5}},
+WindowSize->{949., 532.5},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules->{
  "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
 Magnification:>0.5 Inherited,
@@ -588,9 +589,9 @@ Cell[19207, 446, 265, 4, 70, "Output",ExpressionUUID->"a7a1a7c7-39d9-49c1-ab75-a
 Cell[CellGroupData[{
 Cell[19521, 456, 156, 3, 31, "Chapter",ExpressionUUID->"567928a3-0710-4352-b3a1-19e75d5967b5"],
 Cell[CellGroupData[{
-Cell[19702, 463, 2353, 50, 133, "Input",ExpressionUUID->"f6a80711-3114-4b53-92d9-6292af6b099b"],
-Cell[22058, 515, 1851, 27, 213, "Output",ExpressionUUID->"b4f8f4aa-a5b0-49ad-9638-0a1a9a9bcc7f"],
-Cell[23912, 544, 589, 8, 20, "Output",ExpressionUUID->"f094a17d-acae-4218-a67d-47e68b9d71d5"]
+Cell[19702, 463, 2365, 51, 133, "Input",ExpressionUUID->"f6a80711-3114-4b53-92d9-6292af6b099b"],
+Cell[22070, 516, 1851, 27, 213, "Output",ExpressionUUID->"b4f8f4aa-a5b0-49ad-9638-0a1a9a9bcc7f"],
+Cell[23924, 545, 589, 8, 20, "Output",ExpressionUUID->"f094a17d-acae-4218-a67d-47e68b9d71d5"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

@@ -68,13 +68,7 @@ The entries can be hyperlinked via their entry name, e.g. `[[test]](#Bettles2016
 
 
 
-markdown-playground
-===================
-First Header  | Second Header | Third Header
-------------- | ------------- | -----------
-[oneone][11] | [12] | [13]
-[21] | [twotwo][22] | [23]
-[31] | [32] | [three trees][33]
+[oneone][11]
 
 [11]: http://www.a-big-long-big-big-long-hyperlink/more-long-stuff?id=11
 [12]: http://www.a-big-long-big-big-long-hyperlink/more-long-stuff?id=12

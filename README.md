@@ -54,5 +54,8 @@ Manzoni M T, Moreno-Cardoner M, Asenjo-Garcia A, Porto J V, Gorshkov A V, Chang 
 [New Journal of Physics 20, 83048](https://dx.doi.org/10.1088/1367-2630/aadb74) (2018)
 
 
+
+The entries can be hyperlinked via their entry name, e.g. `[[test]](#Bettles2016EnhancedArray)` becomes [test][#Bettles2016EnhancedArray].
+
+
 [test]: bababa
-The entries can be hyperlinked via their entry name, e.g. `[[test]](#Bettles2016EnhancedArray)` becomes [test](#Bettles2016EnhancedArray).

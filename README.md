@@ -24,7 +24,7 @@ From the file "example.bib", the example below imports four entries: Bettles2016
 Some entries can be empty or undefined. 
 Here below, as an example, the starting index is defined as 18, leading to the output format:
 
-```Latex
+```Markdown
 <a id="Bettles2016EnhancedArray">[18]</a>
 Bettles Robert J, Gardiner Simon A, Adams Charles S,
 *Enhanced Optical Cross Section via Collective Coupling of Atomic Dipoles in a 2D Array*,

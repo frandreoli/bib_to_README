@@ -55,4 +55,4 @@ Manzoni M T, Moreno-Cardoner M, Asenjo-Garcia A, Porto J V, Gorshkov A V, Chang 
 
 
 [test]: bababa
-The entries can be hyperlinked via their entry name, e.g. `[[test]](#Bettles2016EnhancedArray)` becomes [[test]](#Bettles2016EnhancedArray).
+The entries can be hyperlinked via their entry name, e.g. `[[test]](#Bettles2016EnhancedArray)` becomes [test](#Bettles2016EnhancedArray).

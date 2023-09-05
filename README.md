@@ -3,8 +3,24 @@ A Mathematica notebook aimed at importing a bibliography from a .bib source and 
 
 # Example
 
-From the file "example.bib", the example below imports four entries: Bettles2016EnhancedArray, Shahmoon2017CooperativeArrays, Rui2020ALayer and Manzoni2018OptimizationArrays (in this order). 
-The starting index is defined as 18. The Markdown result is shown below:
+From the file "example.bib", the example below imports four entries: Bettles2016EnhancedArray, Shahmoon2017CooperativeArrays, Rui2020ALayer and Manzoni2018OptimizationArrays (in this order). The format of these entries is the usual BibTeX format, exemplified by:
+
+@article{Bettles2016EnhancedArray,
+    title = {{Enhanced Optical Cross Section via Collective Coupling of Atomic Dipoles in a 2D Array}},
+    year = {2016},
+    journal = {Physical Review Letters},
+    author = {Bettles, Robert J. and Gardiner, Simon A. and Adams, Charles S.},
+    number = {10},
+    month = {3},
+    pages = {103602},
+    volume = {116},
+    publisher = {American Physical Society},
+    url = {https://link.aps.org/doi/10.1103/PhysRevLett.116.103602},
+    doi = {10.1103/PhysRevLett.116.103602},
+    issn = {0031-9007}
+}
+
+As an example, the starting index is defined as 18. The Markdown result reads:
 
 <a id="Bettles2016EnhancedArray">[18]</a>
 Bettles Robert J, Gardiner Simon A, Adams Charles S,

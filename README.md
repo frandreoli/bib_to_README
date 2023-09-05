@@ -25,7 +25,10 @@ Some entries can be empty or undefined.
 Here below, as an example, the starting index is defined as 18, leading to the output format:
 
 ```Julia
-sss
+<a id="Bettles2016EnhancedArray">[18]</a>
+Bettles Robert J, Gardiner Simon A, Adams Charles S,
+*Enhanced Optical Cross Section via Collective Coupling of Atomic Dipoles in a 2D Array*,
+[Physical Review Letters 116, 103602](https://dx.doi.org/10.1103/PhysRevLett.116.103602) (2016)
 ```
 
 In a Markdown environment, the output of the four entries will look like:

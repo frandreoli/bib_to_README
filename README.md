@@ -60,6 +60,7 @@ The entries can be hyperlinked via their entry name, e.g. `[[test]](#Bettles2016
 
 
 [oneone][11]
+[test][link]
  
 
 [11]: http://www.a-big-long-big-big-long-hyperlink/more-long-stuff?id=11

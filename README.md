@@ -57,5 +57,5 @@ The entries can be hyperlinked via their entry name, e.g. `[18](#Bettles2016Enha
 
 [test]: bababa
 
-[test]
+the value of [test]
 

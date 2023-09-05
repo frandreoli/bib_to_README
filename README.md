@@ -5,7 +5,7 @@ A Mathematica notebook aimed at importing a bibliography from a .bib source and 
 
 From the file "example.bib", the example below imports four entries: Bettles2016EnhancedArray, Shahmoon2017CooperativeArrays, Rui2020ALayer and Manzoni2018OptimizationArrays (in this order). The format of these entries is the usual BibTeX format, exemplified by:
 
-```BibLatex
+```BibTex
 @article{Bettles2016EnhancedArray,
     title = {{Enhanced Optical Cross Section via Collective Coupling of Atomic Dipoles in a 2D Array}},
     year = {2016},

@@ -31,7 +31,7 @@ Bettles Robert J, Gardiner Simon A, Adams Charles S,
 [Physical Review Letters 116, 103602](https://dx.doi.org/10.1103/PhysRevLett.116.103602) (2016)
 ```
 
-In a Markdown environment, the output of the four entries will look like:
+In a Markdown environment, the output of the four entries mentioned above will look like:
 
 <a id="Bettles2016EnhancedArray">[18]</a>
 Bettles Robert J, Gardiner Simon A, Adams Charles S,

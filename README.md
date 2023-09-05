@@ -5,6 +5,7 @@ A Mathematica notebook aimed at importing a bibliography from a .bib source and 
 
 From the file "example.bib", the example below imports four entries: Bettles2016EnhancedArray, Shahmoon2017CooperativeArrays, Rui2020ALayer and Manzoni2018OptimizationArrays (in this order). The format of these entries is the usual BibTeX format, exemplified by:
 
+```BibTex
 @article{Bettles2016EnhancedArray,
     title = {{Enhanced Optical Cross Section via Collective Coupling of Atomic Dipoles in a 2D Array}},
     year = {2016},
@@ -19,6 +20,7 @@ From the file "example.bib", the example below imports four entries: Bettles2016
     doi = {10.1103/PhysRevLett.116.103602},
     issn = {0031-9007}
 }
+```
 
 As an example, the starting index is defined as 18. The Markdown result reads:
 

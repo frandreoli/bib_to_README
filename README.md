@@ -73,7 +73,9 @@ dd
 [test]: bababa
 
 
+kkk
 
-This is my [random value] located somewhere in my Markdown document. 
 
-[random value]: variable value
+This is my [randomvalue] located somewhere in my Markdown document. 
+
+[randomvalue]: variable value

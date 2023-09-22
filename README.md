@@ -1,9 +1,9 @@
 # Introduction
-A Mathematica notebook aimed at importing a bibliography from a .bib source and print it with a Github Markdown format.
+A Python code designed to import some entries from a BibTex (.bib) bibliography and print them with a Github Markdown (.md) format. For those not familiar with Python, a Mathematica notebook is provided as well, which fulfills the same goal.
 
 # Example
 
-From the file "example.bib", the example below imports four entries: Bettles2016EnhancedArray, Shahmoon2017CooperativeArrays, Rui2020ALayer and Manzoni2018OptimizationArrays (in this order). The format of these entries is the usual BibTeX format, exemplified by:
+As an example, we use the code to import four entries (Bettles2016EnhancedArray, Shahmoon2017CooperativeArrays, Rui2020ALayer and Manzoni2018OptimizationArrays, in this order), from the file "example.bib". The format of these entries is the usual BibTeX format, exemplified by:
 
 ```BibTex
 @article{Bettles2016EnhancedArray,

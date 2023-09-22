@@ -48,7 +48,7 @@ def construct_md(entry_dictionary):
     pass
 
 
-def bib_to_md_convert(entry_names, biblio_name, max_length=10**4):
+def bib_to_md_convert(entry_names, biblio_name, start_index = 1, max_length=10**4):
     #
     try:
         biblio_file = open(biblio_name,"r")

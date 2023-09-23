@@ -86,6 +86,9 @@ def add_period_authors(text_string):
 
 def construct_md(entry_name,entry_dictionary,entry_index):
     #
+    if entry_dictionary=={}:
+        return "", 0
+    #
     #Initial entry definition for Markdown
     final_string = "<a id=\"" + entry_name + "\">[" + str(entry_index) +"]</a>\n"
     #
@@ -119,7 +122,7 @@ def construct_md(entry_name,entry_dictionary,entry_index):
     final_string += key_extract(entry_dictionary,"year"," (",")")
     #
     #Returning the converted entry        
-    return final_string
+    return "\n" + final_string + "\n", 1
 
 
 def bib_to_md_convert(entry_name_list, biblio_name, start_index = 1, max_length=10**4):
@@ -138,9 +141,9 @@ def bib_to_md_convert(entry_name_list, biblio_name, start_index = 1, max_length=
     #Translating the entries from bib to md
     for entry_name in entry_name_list:
         entry_dictionary = entry_data_dictionary(entry_name, biblio_full,max_length)
-        entry_string = construct_md(entry_name,entry_dictionary,entry_index)
-        converted_string += "\n" + entry_string + "\n"
-        entry_index += 1
+        entry_string, i_to_add = construct_md(entry_name,entry_dictionary,entry_index)
+        converted_string += entry_string 
+        entry_index += i_to_add
         #
     return converted_string
 
@@ -154,6 +157,8 @@ test_entries = [
                 "Shahmoon2017CooperativeArrays",
                 "Rui2020ALayer",
                 "Manzoni2018OptimizationArrays"
+                #,"WrongEntry",
+                #"TestIncompleteEntry"
                 ]
 
 biblio_name = "example.bib"

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     25893,        593]
-NotebookOptionsPosition[     24553,        558]
-NotebookOutlinePosition[     25080,        577]
-CellTagsIndexPosition[     25037,        574]
+NotebookDataLength[     25948,        594]
+NotebookOptionsPosition[     24605,        559]
+NotebookOutlinePosition[     25135,        578]
+CellTagsIndexPosition[     25092,        575]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -500,7 +500,7 @@ Cell[BoxData[{
   RowBox[{"StringRiffle", "[", 
    RowBox[{"listTexts", ",", "\"\<\>\""}], "]"}]}], "\[IndentingNewLine]", 
  RowBox[{"Export", "[", 
-  RowBox[{"\"\<readme_text.txt\>\"", ",", "finalResult"}], "]"}]}], "Input",
+  RowBox[{"\"\<converted_text.txt\>\"", ",", "finalResult"}], "]"}]}], "Input",
  CellChangeTimes->{{3.8843319873013115`*^9, 3.884332055279978*^9}, {
    3.88433208882701*^9, 3.884332197422641*^9}, {3.8843324166792436`*^9, 
    3.884332429170249*^9}, {3.8843324945177374`*^9, 3.8843324984677515`*^9}, 
@@ -510,8 +510,9 @@ Cell[BoxData[{
    3.884336734922433*^9}, {3.8844255657328997`*^9, 3.884425650792962*^9}, {
    3.8844256916856537`*^9, 3.8844257130068035`*^9}, {3.902821952829999*^9, 
    3.902821953858178*^9}, {3.902822166222801*^9, 3.9028221665490956`*^9}, {
-   3.902822211387169*^9, 3.9028222210672483`*^9}, 
-   3.9028234258287225`*^9},ExpressionUUID->"f6a80711-3114-4b53-92d9-\
+   3.902822211387169*^9, 3.9028222210672483`*^9}, 3.9028234258287225`*^9, {
+   3.904459728040895*^9, 
+   3.90445972945885*^9}},ExpressionUUID->"f6a80711-3114-4b53-92d9-\
 6292af6b099b"],
 
 Cell[BoxData["\<\"<a id=\\\"Bettles2016EnhancedArray\\\">[18]</a>\\nBettles \
@@ -556,8 +557,8 @@ Cell[BoxData["\<\"readme_text.txt\"\>"], "Output",
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{949., 532.5},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{960, 538},
+WindowMargins->{{-5.5, Automatic}, {Automatic, -5.5}},
 TaggingRules->{
  "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
 Magnification:>0.5 Inherited,
@@ -583,15 +584,15 @@ Cell[770, 29, 156, 3, 34, "Chapter",ExpressionUUID->"8b797588-3971-4dca-8563-2d1
 Cell[CellGroupData[{
 Cell[951, 36, 18253, 408, 1322, "Input",ExpressionUUID->"0710420f-8ee3-446e-a1d7-cd202ecdd43e",
  InitializationCell->True],
-Cell[19207, 446, 265, 4, 70, "Output",ExpressionUUID->"a7a1a7c7-39d9-49c1-ab75-a7842c3bae25"]
+Cell[19207, 446, 265, 4, 20, "Output",ExpressionUUID->"a7a1a7c7-39d9-49c1-ab75-a7842c3bae25"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
 Cell[19521, 456, 156, 3, 31, "Chapter",ExpressionUUID->"567928a3-0710-4352-b3a1-19e75d5967b5"],
 Cell[CellGroupData[{
-Cell[19702, 463, 2365, 51, 133, "Input",ExpressionUUID->"f6a80711-3114-4b53-92d9-6292af6b099b"],
-Cell[22070, 516, 1851, 27, 213, "Output",ExpressionUUID->"b4f8f4aa-a5b0-49ad-9638-0a1a9a9bcc7f"],
-Cell[23924, 545, 589, 8, 20, "Output",ExpressionUUID->"f094a17d-acae-4218-a67d-47e68b9d71d5"]
+Cell[19702, 463, 2417, 52, 133, "Input",ExpressionUUID->"f6a80711-3114-4b53-92d9-6292af6b099b"],
+Cell[22122, 517, 1851, 27, 213, "Output",ExpressionUUID->"b4f8f4aa-a5b0-49ad-9638-0a1a9a9bcc7f"],
+Cell[23976, 546, 589, 8, 20, "Output",ExpressionUUID->"f094a17d-acae-4218-a67d-47e68b9d71d5"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

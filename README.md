@@ -1,5 +1,5 @@
 # Introduction
-A Python code designed to import some entries from a BibTex (.bib) bibliography and print them in a convenient Github Markdown (.md) format. For those not familiar with Python, a Mathematica notebook is provided as well, which fulfills the same goal.
+A Python code designed to import some entries from a BibTex (.bib) bibliography and print them in a convenient Github Markdown (.md) format. For those people who are not familiar with Python, a Mathematica notebook is provided as well, which fulfills the same goal.
 
 # Example
 

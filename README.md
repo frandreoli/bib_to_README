@@ -54,3 +54,4 @@ Manzoni M. T., Moreno-Cardoner M., Asenjo-Garcia A., Porto J. V., Gorshkov A. V.
 [New Journal of Physics 20, 83048](https://dx.doi.org/10.1088/1367-2630/aadb74) (2018)
 
 In the main Markdown text, the entries can be hyperlinked via their entry name, e.g. `[18](#Bettles2016EnhancedArray)` becomes [18](#Bettles2016EnhancedArray). 
+

@@ -86,6 +86,7 @@ def add_period_authors(text_string):
 
 def construct_md(entry_name,entry_dictionary,entry_index):
     #
+    #Check if no data exist for that entry
     if entry_dictionary=={}:
         return "", 0
     #

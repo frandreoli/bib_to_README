@@ -3,7 +3,7 @@ A Python code designed to import some entries from a BibTex (.bib) bibliography 
 
 # Example
 
-As an example, we use the code to import four entries (Bettles2016EnhancedArray, Shahmoon2017CooperativeArrays, Rui2020ALayer and Manzoni2018OptimizationArrays, in this order), from the file "example.bib". The format of these entries is the usual BibTeX format (the same automatic format provided, for example, by [Mendeley](https://www.mendeley.com/search/) reference manager), exemplified by:
+As an example, we use the code to import four entries (Bettles2016EnhancedArray, Shahmoon2017CooperativeArrays, Rui2020ALayer and Manzoni2018OptimizationArrays, in this order), from the file "example.bib". The format of these entries is the usual BibTeX format (the same automatic format provided, for example, by [Mendeley](https://www.mendeley.com/search/) reference manager). This can be exemplified by:
 
 ```BibTex
 @article{Bettles2016EnhancedArray,

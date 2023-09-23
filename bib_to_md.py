@@ -1,5 +1,6 @@
 ####################### FUNCTION DEFINITIONS #################################
 
+
 def entry_data_dictionary(entry_name, biblio, max_length=10**4):
     #
     #If the entry doesn't exist returns an empty dictionary
@@ -43,6 +44,7 @@ def entry_data_dictionary(entry_name, biblio, max_length=10**4):
     #Returns the dictionary
     return imported_dict
 
+
 def key_check(entry_dictionary,entry_key):
     #
     #Checks if the entry exists and in case deletes consecutive spaces
@@ -55,6 +57,7 @@ def key_check(entry_dictionary,entry_key):
         #
     return result
 
+
 def key_extract(entry_dictionary,entry_key,string_prepend="",string_append=""):
     #
     string_to_add = key_check(entry_dictionary,entry_key)
@@ -63,6 +66,7 @@ def key_extract(entry_dictionary,entry_key,string_prepend="",string_append=""):
         string_to_add = string_prepend + string_to_add + string_append
     #
     return string_to_add
+
 
 def add_period_authors(text_string):
     #
@@ -78,6 +82,7 @@ def add_period_authors(text_string):
     #
     #Return the corrected author list
     return " ".join(text_string_sliced)
+
 
 def construct_md(entry_name,entry_dictionary,entry_index):
     #

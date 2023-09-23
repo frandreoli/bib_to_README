@@ -26,7 +26,7 @@ Here below, as an example, the starting index is defined as 18, leading to the o
 
 ```Markdown
 <a id="Bettles2016EnhancedArray">[18]</a>
-Bettles Robert J, Gardiner Simon A, Adams Charles S,
+Bettles Robert J., Gardiner Simon A., Adams Charles S.,
 *Enhanced Optical Cross Section via Collective Coupling of Atomic Dipoles in a 2D Array*,
 [Physical Review Letters 116, 103602](https://dx.doi.org/10.1103/PhysRevLett.116.103602) (2016)
 ```
@@ -34,22 +34,22 @@ Bettles Robert J, Gardiner Simon A, Adams Charles S,
 In a Markdown environment, the output of the four entries mentioned above will look like:
 
 <a id="Bettles2016EnhancedArray">[18]</a>
-Bettles Robert J, Gardiner Simon A, Adams Charles S,
+Bettles Robert J., Gardiner Simon A., Adams Charles S.,
 *Enhanced Optical Cross Section via Collective Coupling of Atomic Dipoles in a 2D Array*,
 [Physical Review Letters 116, 103602](https://dx.doi.org/10.1103/PhysRevLett.116.103602) (2016)
 
 <a id="Shahmoon2017CooperativeArrays">[19]</a>
-Shahmoon Ephraim, Wild Dominik S, Lukin Mikhail D, Yelin Susanne F,
+Shahmoon Ephraim, Wild Dominik S., Lukin Mikhail D., Yelin Susanne F.,
 *Cooperative Resonances in Light Scattering from Two-Dimensional Atomic Arrays*,
 [Physical Review Letters 118, 113601](https://dx.doi.org/10.1103/PhysRevLett.118.113601) (2017)
 
 <a id="Rui2020ALayer">[20]</a>
-Rui Jun, Wei David, Rubio-Abadal Antonio, Hollerith Simon, Zeiher Johannes, Stamper-Kurn Dan M, Gross Christian, Bloch Immanuel,
+Rui Jun, Wei David, Rubio-Abadal Antonio, Hollerith Simon, Zeiher Johannes, Stamper-Kurn Dan M., Gross Christian, Bloch Immanuel,
 *A subradiant optical mirror formed by a single structured atomic layer*,
 [Nature 583, 369-374](https://dx.doi.org/10.1038/s41586-020-2463-x) (2020)
 
 <a id="Manzoni2018OptimizationArrays">[21]</a>
-Manzoni M T, Moreno-Cardoner M, Asenjo-Garcia A, Porto J V, Gorshkov A V, Chang D E,
+Manzoni M. T., Moreno-Cardoner M., Asenjo-Garcia A., Porto J. V., Gorshkov A. V., Chang D. E.,
 *Optimization of photon storage fidelity in ordered atomic arrays*,
 [New Journal of Physics 20, 83048](https://dx.doi.org/10.1088/1367-2630/aadb74) (2018)
 

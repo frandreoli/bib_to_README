@@ -13,7 +13,7 @@ def entry_data_dictionary(entry_name, biblio, max_length=10**4):
     entry_pos += len(entry_name)
     max_index = min(len(biblio),entry_pos+max_length)
     #
-    #Checks what it the index where the entry ends, by controlling that all graph parentheses have been closed
+    #Check what it the index where the entry ends, by controlling that all graph parentheses have been closed
     count_graph = 1
     last_pos = entry_pos-1
     while count_graph != 0:
@@ -26,28 +26,28 @@ def entry_data_dictionary(entry_name, biblio, max_length=10**4):
         if new_char == "}":
             count_graph-=1
     #
-    #Extracts the entry texts, deletes consecutive spaces and the first comma
+    #Extract the entry texts, delete consecutive spaces and the first comma
     biblio_catch = biblio[entry_pos:last_pos]
     biblio_catch = " ".join(biblio_catch.split())
     biblio_catch = biblio_catch[biblio_catch.index(",")+1 :]
     #   
-    #Deletes few unwanted elements
+    #Delete few unwanted elements
     biblio_catch = biblio_catch.replace("\n","")
     biblio_catch = biblio_catch.replace("{","")
     biblio_catch = biblio_catch.replace("} ,","},")   
     biblio_catch = biblio_catch.replace("},","---")   
     biblio_catch = biblio_catch.replace("}","")
     #
-    #Translates the text into a dictionary 
+    #Translate the text into a dictionary 
     imported_dict = dict((a.strip(),  b.strip() ) for a, b in (element.split("=") for element in biblio_catch.split("---"))) 
     #
-    #Returns the dictionary
+    #Return the dictionary
     return imported_dict
 
 
 def key_check(entry_dictionary,entry_key):
     #
-    #Checks if the entry exists and in case deletes consecutive spaces
+    #Check if the entry exists and in case delete consecutive spaces
     try:
         result = entry_dictionary[entry_key]
         result = " ".join(result.split())
